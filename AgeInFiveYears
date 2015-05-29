@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class AgeInFiveYears {
-
 	public static void main(String[] args) {
+	
 		Scanner input=new Scanner(System.in);
 
 		System.out.print("Hello. What is your name?");
@@ -17,5 +17,4 @@ public class AgeInFiveYears {
 		System.out.println("Did you know that in five years you will be "+age_after_five_years+" Years old?" );
 		System.out.print("And five years ago you were "+age_before_five_years+" Imagine that!  ");
 	}
-
 }
